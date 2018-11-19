@@ -11,6 +11,7 @@ def take_a_number(array, last_person)
   array.each do |index|
     position = index + 1
   puts "Hi #{last_person}, you are number #{position} in line."
+  katz_deli << last_person
 end
 
 def now_serving
