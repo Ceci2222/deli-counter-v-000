@@ -2,7 +2,9 @@ katz_deli = []
 
 def line(array) 
   until array.size == 0
-    puts array.size
+  array.each do |name|
+    position = array.index(name) + 1
+    puts "The line is currently #{position}. #{name}"
   end
   puts "The line is currently empty."
 end
@@ -20,6 +22,6 @@ def now_serving
     puts "#{next_person} is now being served"
     array.shift
   end
-  "There is nobody waiting to be served!"
+  puts "There is nobody waiting to be served!"
   end
 end
