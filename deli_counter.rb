@@ -1,10 +1,10 @@
 katz_deli = []
 
-def line 
-  while katz_deli.size == 0
+def line(array) 
+  while array.size == 0
     puts "The line is currently empty"
   end
-  return katz_deli.size
+  return array.size
 end
 
 def take_a_number(array, last_person)
