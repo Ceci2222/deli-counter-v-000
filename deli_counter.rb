@@ -2,11 +2,12 @@ katz_deli = []
 
 def line(array) 
   until array.size == 0
-  array.each do |name|
+    array.each do |name|
     position = array.index(name) + 1
-    puts "The line is currently #{position}. #{name}"
+      puts "The line is currently #{position}. #{name}"
+    end
   end
-  puts "The line is currently empty."
+    puts "The line is currently empty."
 end
 
 def take_a_number(array, last_person)
