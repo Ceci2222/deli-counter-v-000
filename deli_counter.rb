@@ -5,7 +5,6 @@ def line(array)
     position = array.index + 1
       puts "The line is currently: #{position}. #{name}"
     end
-  end
     puts "The line is currently empty."
   end
 end
