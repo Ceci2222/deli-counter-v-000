@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line 
-  when katz_deli.size == 0
+  while katz_deli.size == 0
     puts "The line is currently empty"
   end
   return katz_deli.size
