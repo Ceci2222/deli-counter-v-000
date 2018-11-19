@@ -2,7 +2,7 @@ katz_deli = []
 
 def line 
   until katz_deli.count == 0
-    puts katz-deli.count
+    puts katz_deli.count
   end
   "The line is currently empty"
 end
