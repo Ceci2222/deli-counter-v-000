@@ -2,23 +2,23 @@ katz_deli = []
 
 def line(array) 
   while array.size == 0
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   end
-  return array.size
+  array.size
 end
 
 def take_a_number(array, last_person)
   array.each do |index|
     position = index + 1
   puts "Hi #{last_person}, you are number #{position} in line."
-  katz_deli << last_person
+  array << last_person
 end
 
 def now_serving
-  next_person = katz_deli[0]
-  until katz_deli.count == 0 
+  next_person = array[0]
+  until array.count == 0 
     puts "#{next_person} is now being served"
-    katz_deli.shift
+    array.shift
   end
   "There is nobody waiting to be served!"
   end
