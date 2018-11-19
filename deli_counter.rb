@@ -2,7 +2,9 @@ katz_deli = []
 
 def line(array) 
   until array.size == 0
-    position = array.index + 1
+  array.each do |name|
+    index = array.index(name)
+    position = index + 1
       puts "The line is currently: #{position}. #{name}"
     end
       puts "The line is currently empty."
