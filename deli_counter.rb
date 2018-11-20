@@ -10,7 +10,7 @@ def line(array)
       puts "The line is currently empty."
 end
 
-=begin
+
 def take_a_number(array, last_person)
   array.each do |index|
     position = index + 1
@@ -26,4 +26,4 @@ def now_serving
   end
   puts "There is nobody waiting to be served!"
   end
-=end
+
