@@ -6,8 +6,8 @@ def line(array)
   else
     new_string = "The line is currently: "
     array.each do |name|
-    position = array.index(name) + 1
-    new_string << "#{position}. #{name}"
+      position = array.index(name) + 1
+      new_string << "#{position}. #{name}"
   end
     puts new_string
   end
