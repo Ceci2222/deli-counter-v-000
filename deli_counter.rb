@@ -5,11 +5,12 @@ def line(array)
     puts "The line is currently empty."
   else
     new_string = "The line is currently: "
-    person = array.each do |name|
+    array.each do |name|
     position = array.index(name) + 1
-    new_string << "#{position}." << " #{name}"
+    new_string << "#{position}. #{name}"
+  end
     puts new_string
-   end
+  end
  end
 end
   
