@@ -8,6 +8,7 @@ def line(array)
     position = array.index(name) + 1
       puts "The line is currently: "<< "#{position}." << " #{name}"
    end
+ end
 end
   
       
