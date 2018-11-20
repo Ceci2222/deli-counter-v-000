@@ -12,8 +12,8 @@ end
 
 
 def take_a_number(array, last_person)
-  array.each do |index|
-    position = index + 1
+  array.each do |name|
+    position = array.index(name) + 1
   puts "Hi #{last_person}, you are number #{position} in line."
   array << last_person
 end
