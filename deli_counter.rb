@@ -4,7 +4,7 @@ def line(array)
   until array.size == 0
   person = array.each do |name|
     position = array.index(name) + 1
-      puts "The line is currently: "<< "#{position}" <<"#{name}"
+      puts "The line is currently: "<< "#{position}." << " #{name}"
     end
   end
       puts "The line is currently empty."
