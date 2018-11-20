@@ -4,9 +4,10 @@ def line(array)
   if array.size == 0
     puts "The line is currently empty."
   else
+    new_string = "The line is currently: "
     person = array.each do |name|
     position = array.index(name) + 1
-      puts "The line is currently: "<< "#{position}." << " #{name}"
+      puts << "#{position}." << " #{name}"
    end
  end
 end
