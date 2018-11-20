@@ -2,13 +2,14 @@ katz_deli = []
 
 def line(array) 
   until array.size == 0
+  place = []
   person = array.each do |name|
     position = array.index(name) + 1
     place = "#{position}. #{person}"
       puts "The line is currently: " << place.join
     end
-      puts "The line is currently empty."
   end
+      puts "The line is currently empty."
 end
 
 def take_a_number(array, last_person)
