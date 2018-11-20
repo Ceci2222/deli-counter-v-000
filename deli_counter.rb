@@ -12,7 +12,6 @@ def line(array)
     puts new_string
   end
  end
-end
   
       
 
