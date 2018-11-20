@@ -24,12 +24,12 @@ def take_a_number(array, new_person)
 end
 
 def now_serving(array)
-  next_person = array[0]
-  until array.count == 0 
+  if array.size == 0 
+    puts "There is nobody waiting to be served!"
+  else
     puts "#{array[0]}"
     array.shift
   end
-  puts "There is nobody waiting to be served!"
 end
   
 
