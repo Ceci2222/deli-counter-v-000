@@ -4,15 +4,14 @@ def line(array)
   if array.size == 0
     puts "The line is currently empty."
   else
-  person = array.each do |name|
+    person = array.each do |name|
     position = array.index(name) + 1
       puts "The line is currently: "<< "#{position}." << " #{name}"
-    end
-  end
-      
+   end
 end
+  
+      
 
-=begin
 def take_a_number(array, last_person)
   array.each do |name|
     position = array.index(name) + 1
