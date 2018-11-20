@@ -16,10 +16,10 @@ def line(array)
       
 
 def take_a_number(array, new_person)
+  array << "#{new_person}"
   array.each do |name|
-    position = array.index(name) + 1
-    puts "Welcome, #{last_person}, you are number #{position} in line."
-  array << last_person
+  position = array.index(new_person) + 1
+    puts "Welcome, #{new_person}, you are number #{position} in line."
   end
 end
 
