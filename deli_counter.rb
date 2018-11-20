@@ -12,7 +12,7 @@ def line(array)
       
 end
 
-
+=begin
 def take_a_number(array, last_person)
   array.each do |name|
     position = array.index(name) + 1
