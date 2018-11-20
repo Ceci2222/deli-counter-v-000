@@ -6,7 +6,8 @@ def line(array)
   person = array.each do |name|
     position = array.index(name) + 1
     place = "#{position}. #{person}"
-      puts "The line is currently: " << place.join
+    new_string = place.join
+      puts "The line is currently: " << new_string
     end
   end
       puts "The line is currently empty."
