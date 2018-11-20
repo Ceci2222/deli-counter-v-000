@@ -7,7 +7,7 @@ def line(array)
     new_string = "The line is currently: "
     array.each do |name|
       position = array.index(name) + 1
-      new_string << "#{position}. #{name}"
+      new_string << "#{position}. #{name} "
   end
     puts new_string
   end
