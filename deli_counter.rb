@@ -14,12 +14,12 @@ end
 def take_a_number(array, last_person)
   array.each do |name|
     position = array.index(name) + 1
-    puts "Hi #{last_person}, you are number #{position} in line."
+    puts "Welcome, #{last_person}, you are number #{position} in line."
   array << last_person
   end
 end
 
-def now_serving
+def now_serving(array)
   next_person = array[0]
   until array.count == 0 
     puts "#{next_person} is now being served"
