@@ -16,7 +16,7 @@ def line(array)
       
 
 def take_a_number(array, new_person)
-  array << "#{new_person}"
+  array << new_person
   array.each do |name|
   position = array.index(new_person) + 1
     puts "Welcome, #{new_person}. You are number #{position} in line."
