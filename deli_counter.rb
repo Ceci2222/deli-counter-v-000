@@ -2,12 +2,10 @@ katz_deli = []
 
 def line(array) 
   until array.size == 0
-  place = []
   person = array.each do |name|
     position = array.index(name) + 1
     place = "#{position}. #{person}"
-    new_string = place.join
-      puts "The line is currently: " << new_string
+      puts "The line is currently: "
     end
   end
       puts "The line is currently empty."
