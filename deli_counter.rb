@@ -22,9 +22,10 @@ end
 def now_serving(array)
   next_person = array[0]
   until array.count == 0 
-    puts "#{next_person} is now being served"
+    puts "#{array[0]}"
     array.shift
   end
   puts "There is nobody waiting to be served!"
-  end
+end
+  
 
